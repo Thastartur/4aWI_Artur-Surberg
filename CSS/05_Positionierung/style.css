@@ -1,0 +1,58 @@
+div
+ {
+    border-style: solid;
+}
+
+.div1,
+.div4,
+.div7,
+.div10 {
+    background-color: tomato; 
+}
+
+.div2,
+.div5,
+.div8,
+.div11 {
+    background-color: green; 
+}
+
+.div3,
+.div6,
+.div9,
+.div12 {
+    background-color: blue; 
+}
+
+.div1 {
+    position: static;
+    /*
+        "static" listet die einzelnen "divs" der Reihe nach auf.
+    */
+}
+
+.div4 {
+    position: fixed;
+    top:50px;
+    /*
+        "fixed" hält ein oder mehrere "divs" fix an einer Position.
+    */
+}
+
+.div7 {
+    position: relative;
+    top:15px;
+    left:50px;
+    /*
+        "relativ" verschiebt das "div" in eine Richtung vom Ursprungsort.
+    */
+}
+
+.div10 {
+    position: sticky;
+    top:50px;
+    /*
+        "sticky" ist gleich wie "fixed" außer, dass das "div" mitgeht.
+    */
+}
+
