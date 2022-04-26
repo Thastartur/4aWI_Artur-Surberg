@@ -1,0 +1,113 @@
+.box1 {
+    background-color: green;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border-color: black;
+    border-style: solid;
+}
+
+.box2 {
+    background-color: red;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border-color: black;
+    border-style: solid;
+}
+
+.box3 {
+    background-color: blue;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border-color: black;
+    border-style: solid;
+}
+
+.heading {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container1 {
+    background-color: tomato;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container2 {
+    background-color: tomato;
+    height: 50px;
+    width: 50px;
+    border-color: black;
+    border-style: solid;
+    border-bottom: 1px;
+    border-right: 1px;
+    position: absolute;
+    right: 11px;
+    bottom: 258px;
+}
+
+.syndrom {
+    background-color: white;
+    height: 101px;
+    width: 160px;
+    border-color: black;
+    border-style: solid;
+    border-right: 1px;
+    border-bottom: 1px;
+    float: right;
+}
+
+.reihe1 {
+    display: flex;
+}
+
+.reihe2 {
+    display: flex;
+}
+
+.container3 {
+    background-color: tomato;
+    display: flex;
+    height: 150px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-around;
+    border-color: black;
+    border-style: solid;
+    border-left: 1px;
+    border-top: 1px;
+    border-right: 1px;
+}
+
+.container4 {
+    background-color: tomato;
+    display: flex;
+    height: 150px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-around;
+    border-color: black;
+    border-style: solid;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 1px;
+}
+
+.main {
+    background-color: aqua;
+    height: 650px;
+    width: auto;
+    border-color: black;
+    border-style: solid;
+}
+
+.img {
+    width: 100px;
+    height: 50px;
+}
