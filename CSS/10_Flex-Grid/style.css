@@ -1,0 +1,23 @@
+.container {
+    background-color: tomato;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.box {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.item2 {
+    grid-column-start: span 3;
+}
+
+.item3 {
+    grid-column-start: span 2;
+}
